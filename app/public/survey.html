@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr class="my-4">
+        <h3>About You</h3>
+        <form>
+            <div class="form-group">
+                <label for="nameInput">Name (Required)</label>
+                <input type="text" class="form-control" id="nameInput" aria-describedby="nameRequired" placeholder="Enter Name">
+            </div>
+
+            <div class="form-group">
+                <label for="photoLink">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="photoLink" aria-describedby="linkRequired" placeholder="Enter Photo Link">
+            </div>
+            <hr class="my-4">
+
+
+
+            <div class="form-group">
+                <h1>Question 1</h1>
+                <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                <select class="form-control" id="question1">
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 2</h1>
+                <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than your imagination.</label>
+                <select class="form-control" id="question2">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 3</h1>
+                <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                <select class="form-control" id="question3">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 4</h1>
+                <label for="exampleFormControlSelect1">You rarely do something just out of sheer curiosity.</label>
+                <select class="form-control" id="question4">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 5</h1>
+                <label for="exampleFormControlSelect1">People can rarely upset you.</label>
+                <select class="form-control" id="question5">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 6</h1>
+                <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s feelings.</label>
+                <select class="form-control" id="question6">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 7</h1>
+                <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s sensitivities.</label>
+                <select class="form-control" id="question7">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 8</h1>
+                <label for="exampleFormControlSelect1">You rarely get carried away by fantasies and ideas.</label>
+                <select class="form-control" id="question8">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 9</h1>
+                <label for="exampleFormControlSelect1">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                <select class="form-control" id="question9">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h1>Question 10</h1>
+                <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of people.</label>
+                <select class="form-control" id="question10">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 submit">Submit</button>
+        </form>
+    </div>
+    
+    <script type="text/javascript">
+    $(".submit").on("click", function(event) {
+    event.preventDefault();
+
+        var newFriend = {
+            name: $("#nameInput").val().trim(),
+            photo: $("#photoLink").val().trim(),
+            scores: [
+                parseInt($( "#question1 option:selected" ).text().charAt(0)),
+                parseInt($( "#question2 option:selected" ).text().charAt(0)),
+                parseInt($( "#question3 option:selected" ).text().charAt(0)),
+                parseInt($( "#question4 option:selected" ).text().charAt(0)),
+                parseInt($( "#question5 option:selected" ).text().charAt(0)),
+                parseInt($( "#question6 option:selected" ).text().charAt(0)),
+                parseInt($( "#question7 option:selected" ).text().charAt(0)),
+                parseInt($( "#question8 option:selected" ).text().charAt(0)),
+                parseInt($( "#question9 option:selected" ).text().charAt(0)),
+                parseInt($( "#question10 option:selected" ).text().charAt(0))
+            ]
+        }
+        
+        $.post("/api/friends", newFriend,
+      function(data) {
+
+        $("#nameInput").val("");
+        $("#photoLink").val("");
+        });
+
+      var difference =0;
+      var smallestDiff =100000;
+      var closest;
+
+    $.ajax({ url: "/api/friends", method: "GET" })
+        .then(function(friendData) {
+            for (var i = 0; i < friendData.length-1; i++) {
+                for(var j=0; j<10;j++){
+                    if((friendData[i].scores[j] - friendData[friendData.length-1].scores[j]) < 0){
+                        difference += (friendData[i].scores[j] - friendData[friendData.length-1].scores[j]) * -1;
+                    }
+                    else{
+                        difference += friendData[i].scores[j] - friendData[friendData.length-1].scores[j]
+                    }
+                }
+                if(smallestDiff>difference){
+                    smallestDiff =difference;
+                    closest = i;
+                    difference = 0;
+                }
+            
+            }
+            console.log();
+            //modal call
+            var mymodal = $('#exampleModal');
+
+            mymodal.find('.modal-title').text(friendData[closest].name);
+
+            mymodal.find('.modal-body').html("<img src='"+friendData[closest].photo+"' alt=''>");
+            mymodal.modal('show');
+      });
+
+    });
+    </script>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
