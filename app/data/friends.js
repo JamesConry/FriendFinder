@@ -13,6 +13,66 @@ var friends = [{
         4,
         1
       ]
+  },{
+    "name":"James Bond",
+    "photo":"https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2018-05/gettyimages-494656120.jpg?itok=b0e7xle6&h=952c1ea1",
+    "scores":[
+        3,
+        2,
+        4,
+        5,
+        2,
+        1,
+        4,
+        2,
+        3,
+        4
+      ]
+  },{
+    "name":"Darth Vader",
+    "photo":"https://www.sideshow.com/storage/product-images/1000763/darth-vader_star-wars_gallery_5d4b2c7cbcd1b.jpg",
+    "scores":[
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+  },{
+    "name":"Luke Skywalker",
+    "photo":"https://www.sideshow.com/storage/product-images/903109/luke-skywalker_star-wars_feature.jpg",
+    "scores":[
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+  },{
+    "name":"Yoda",
+    "photo":"https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=960",
+    "scores":[
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
   }
 ];
   
