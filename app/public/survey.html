@@ -192,15 +192,15 @@
                         difference += (friendData[i].scores[j] - friendData[friendData.length-1].scores[j]) * -1;
                     }
                     else{
-                        difference += friendData[i].scores[j] - friendData[friendData.length-1].scores[j]
+                        difference += (friendData[i].scores[j] - friendData[friendData.length-1].scores[j])
                     }
+                    
                 }
                 if(smallestDiff>difference){
                     smallestDiff =difference;
                     closest = i;
-                    difference = 0;
                 }
-            
+                difference = 0;
             }
             smallestDiff = 100000000;
             //modal call
